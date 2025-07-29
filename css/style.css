@@ -1,10 +1,15 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
+    /* --primary: #06A3DA; */
+    --primary: #030303;
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
 }
+
+.bg-primary {
+    background: var(--primary) !important;
+}   
 
 
 /*** Spinner ***/
@@ -85,7 +90,10 @@ h6,
     transition: .5s;
 }
 
-.btn-primary,
+.btn-primary{
+    background-color: #383838;
+}
+
 .btn-secondary {
     color: #FFFFFF;
     box-shadow: inset 0 0 0 50px transparent;
@@ -221,7 +229,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
 
